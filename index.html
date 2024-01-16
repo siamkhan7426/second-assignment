@@ -12,9 +12,16 @@
     <!-- navbar star -->
     <header>
         <nav class="navbar-flex">
-            <span><img id="img-trvel" src="images/travel_logo.PNG" alt="">
-            </span>
+            <div class="nabar-logo">
+                <img id="nav-img" src="images/logo.png" alt="">
+                <h3 class="nabar-title"><span>Hero</span>Travel</h3>
+            </div>
+        
             <div class="nav-list">
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
                 <ul>
                     <li><a href=""><span id="home">Home</span></a></li>
                     <li><a href=""></a><Packages/li>
@@ -37,10 +44,17 @@
         </div>
             <div class="banner-form-type">
                 <input type="text" placeholder="Where go">
+                <select  class="ban-form">
+                    <option value="When">When</option>
+                </select>
+                <select  class="ban-form">
+                    <option value="Select Type">Select Type</option>
+                </select>
+                <!-- <input type="text" placeholder="Where go">
                 <input type="text" placeholder="When" >
                 <i id="icon-tag" class="fa-solid fa-angle-down"></i>
                 <input type="text" placeholder="Select Type">
-                <i id="icon-tag-1" class="fa-solid fa-angle-down"></i>
+                <i id="icon-tag-1" class="fa-solid fa-angle-down"></i> -->
                 <button class="btn-primary"> <i class="fa-solid fa-magnifying-glass"></i> Find Now</button>
                 
             </div>
