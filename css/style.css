@@ -351,6 +351,7 @@ line-height: 26px;
     justify-content: center;
     align-items: center;
     align-content: center;
+    flex-direction: row;
     gap: 24px;
 
 }
@@ -388,6 +389,13 @@ color: #5A5A5D;
 font-size: 1rem;
 font-weight: 400;
 line-height: 26px; 
+}
+.icon-dep{
+color: #5A5A5D;
+font-size: 1rem;
+font-weight: 400;
+line-height: 26px;
+margin-top: 1rem;
 }
 
  /* choose-section end */
@@ -504,7 +512,7 @@ line-height: 26px;
     font-size: 1rem;
 
     }
-    .popular-tour-section{
+    .popular-tour-section {
         flex-direction: column;
     }
     .popular-tour-text{
@@ -517,6 +525,7 @@ line-height: 26px;
 }
 .img-container{
 flex-direction: column;
+align-items: flex-start;
 }
 .grid-img{
     width: 335px;
@@ -534,10 +543,56 @@ line-height: 24px;
 
 }
 
+.icon-img{
+    flex-direction: column;
+}
+.icon-title{
+color: #131318;
+text-align: start;
+font-size: 1.4rem;
+font-weight: 800;
+margin-top: 1rem;
+margin-bottom: 1rem;
+
+}
+.icon-img .text-img {
+color: rgba(19, 19, 24, 0.70);
+font-size: 0.8rem;
+line-height: 24px; 
+margin: 10px;
+
+}
+
+.icon-dep{
+ color: #5A5A5D;
+font-size: 0.8rem;
 
 
 }
-    
+.icon-img .text-img {
+    width: 100%;
+    height: auto;
+
+
+
+}
+.best-price{
+    width: 100%;
+}
+.icon-title-price{
+    color: #131318;
+    font-size: 1rem;
+}
+.icon-dep-price{
+color: #5A5A5D;
+font-size: 0.7rem;
+font-weight: 400;
+line-height: 24px;
+
+}
+
+
+}
 
 
 /* laptop dekstop device */
@@ -617,6 +672,23 @@ line-height: 24px;
             line-height: 24px;
         
             }
+
+            .best-price{
+                width: 100%;
+                margin-top: 50px;
+            }
+            .icon-title-price{
+                color: #131318;
+                font-size: 1.5rem;
+            }
+            
+            .icon-dep-price{
+            color: #5A5A5D;
+            font-size: 1rem;
+            line-height: 24px;
+            
+            }
+
 
 
     }
