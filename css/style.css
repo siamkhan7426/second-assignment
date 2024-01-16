@@ -179,9 +179,87 @@ font-family: Mulish;
 font-size: 16px;
 font-weight: 700;
   }
-  
-
 /* banner-section end */
+
+/* popular tour star */
+.popular-tour-section{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+    margin-top: 100px;
+    text-align: center;
+
+}
+.popular-tour-text{
+    max-width: 100%;
+    height: auto;
+    background: #FFF;
+    margin-left: 100px;
+
+}
+.popular-tour-heding{
+ color: #131318;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+margin-bottom: 24px;
+}
+.popular-dep{
+width: 100%;
+color: rgba(19, 19, 24, 0.70);
+font-size: 1rem;
+font-weight: 400;
+line-height: 26px; 
+margin-bottom: 24px;
+}
+.popular-tour-section ul li{
+width: 100%;
+color: rgba(19, 19, 24, 0.70);
+font-size: 1rem;
+line-height: 26px; 
+}
+.popular-dep-1{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.popular-tour-img{
+  
+}
+
+.popular-tour-img #popular-img{
+    max-width: 100%;
+    height: 300px;
+    margin-right: ;
+   
+}
+.popular-tour-text button{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 15px 30px;
+    border: 0;
+    margin-top: 32px;
+}
+.popular-btn{
+    border-radius: 8px;
+    background: #FF5400;
+}
+/* popular tour end */
+
+
+
+
+
+
+
   /* choose-section star */
 .choose-section-title{
     max-width: 100%;
