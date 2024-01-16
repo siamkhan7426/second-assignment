@@ -182,6 +182,38 @@ font-weight: 700;
   
 
 /* banner-section end */
+  /* choose-section star */
+.choose-section-title{
+    max-width: 100%;
+    background: #FFF;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+.choose-section-title .choose-section-center{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 2.7rem;
+    font-weight: 800;
+}
+.choose-section-title .choose-dep{
+     max-width: 100%;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+}
+
+  /* choose-section end */
+
+
+
+
+
+
 
 
 /* meda quray  */
