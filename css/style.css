@@ -399,8 +399,13 @@ margin-top: 1rem;
 }
 
  /* choose-section end */
+/* button star */
  .button-center{
-
+    display: block;
+    width: 20%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 48px;
  }
  button{
     border-radius: 8px;
@@ -409,6 +414,8 @@ margin-top: 1rem;
     border: 0;
     text-align: center;
  }
+  /* button end */
+
  .btn-pacges{
 color: #FFF;
 text-align: center;
