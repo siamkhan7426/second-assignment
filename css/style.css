@@ -234,8 +234,9 @@ line-height: 26px;
 }
 
 #popular-img{
-    max-width: 400px;
-    
+  
+    max-width: 500px;
+    height: auto;
 
     
 }
@@ -399,7 +400,19 @@ line-height: 26px;
     font-size: 1rem;
 
     }
+    .popular-tour-section{
+        flex-direction: column;
+    }
+    .popular-tour-text{
+        margin-left: 20px;
+    }
+
+    #popular-img{
+    margin-left: 20px;
+    max-width: 100%;
 }
+}
+    
 
 /* laptop dekstop device */
 @media screen and (min-width: 600px) and (max-width: 992px){
@@ -448,4 +461,16 @@ line-height: 26px;
     .banner-form-type{
         flex-direction: column;
     }
-}
+
+    .popular-tour-section{
+        flex-direction: column;
+    }
+    .popular-tour-img{
+        padding-right:20px ;
+    }
+
+     .popular-tour-img #popular-img{
+        max-width: 100%;
+
+        }
+        
