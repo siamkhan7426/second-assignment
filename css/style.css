@@ -178,7 +178,8 @@ text-align: center;
 font-family: Mulish;
 font-size: 16px;
 font-weight: 700;
-  }
+
+}
 /* banner-section end */
 
 /* popular tour star */
@@ -188,9 +189,9 @@ font-weight: 700;
     justify-content: center;
     align-items: center;
     align-content: center;
-    gap: 20px;
+    gap: 30px;
     margin-top: 100px;
-    text-align: center;
+    text-align: start;
 
 }
 .popular-tour-text{
@@ -202,7 +203,7 @@ font-weight: 700;
 }
 .popular-tour-heding{
  color: #131318;
-text-align: center;
+text-align:start;
 font-size: 40px;
 font-weight: 800;
 margin-bottom: 24px;
@@ -229,14 +230,14 @@ line-height: 26px;
     
 }
 .popular-tour-img{
-  
+    padding-right: 100px;
 }
 
-.popular-tour-img #popular-img{
-    max-width: 100%;
-    height: 300px;
-    margin-right: ;
-   
+#popular-img{
+    max-width: 400px;
+    
+
+    
 }
 .popular-tour-text button{
     color: #FFF;
