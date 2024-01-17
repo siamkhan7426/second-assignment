@@ -457,8 +457,27 @@ font-style: normal;
 font-weight: 400;
 line-height: 26px; 
 }
+.news-button{
+    height: 52px; 
+    max-width: 393px;
+    margin-bottom: 1rem;
+}
 
+input::placeholder{
 
+color: rgba(19, 19, 24, 0.30);
+font-size: 1rem;
+
+}
+
+.input-ara{
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+padding: 15px 70px;
+margin-bottom: 15px;
+border: 0;
+outline: 0;
+}
 
 
 
