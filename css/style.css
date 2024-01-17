@@ -566,8 +566,20 @@ hr {
 
 /* samll device */
 @media screen and (max-width: 600px) {
-  /* newsletter */
+/* footer section star */
+#footer-section{
+margin-top: 30%;
+padding: 5px;
+}
 
+.footer-logo{
+    flex-direction: column;
+}
+
+/* footer section end */
+
+
+  /* newsletter */
   .newsletter-text-img-right .news-img-box-2 {
     position: absolute;
     top: 25%;
@@ -784,6 +796,13 @@ hr {
 
 /* laptop dekstop device */
 @media screen and (min-width: 600px) and (max-width: 992px) {
+
+    /* foter star */
+#footer-section{
+    padding: 0;
+}
+
+
   /* newsleeter star */
   .Newsletter {
     display: flex;
