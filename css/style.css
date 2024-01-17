@@ -566,9 +566,41 @@ hr {
 
 /* room section star */
 .rom-box{
-    
+ display: block;
+ width: 1170px;
+ height: 500px; 
+background-color: #0F172B;
+border: 2px solid red;
+margin-top: 100px;
+margin-right: auto;
+margin-left: auto;
+padding: 60px;
+color: #fff;
+font-family: Inter;
 }
+.rom-title{
+    text-align: start;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-style: bold;
+    font-family: Inter;
 
+}
+.room-title{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.romm-dep{
+    font-size:0.8rem ;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+.rom-btn{
+
+    margin-top: 100px;
+    margin-left: 20px;
+
+}
 
 
 /* room section end */
@@ -577,6 +609,10 @@ hr {
 
 /* samll device */
 @media screen and (max-width: 600px) {
+
+    .rom-box{
+        width: 100%;
+    }
 /* footer section star */
 #footer-section{
 margin-top: 30%;
@@ -807,7 +843,9 @@ padding: 5px;
 
 /* laptop dekstop device */
 @media screen and (min-width: 600px) and (max-width: 992px) {
-
+    .rom-box{
+        width: 100%;
+    }
     /* foter star */
 #footer-section{
     padding: 0;
