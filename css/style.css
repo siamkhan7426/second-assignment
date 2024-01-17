@@ -542,6 +542,8 @@ background: #FF5400;
 @media screen and (max-width: 600px){
 /* newsletter */
 
+
+
 .newsletter-text-img-right .news-img-box-2 {
     position: absolute;
     top: 25%;
@@ -780,6 +782,63 @@ line-height: 24px;
 
 /* laptop dekstop device */
 @media screen and (min-width: 600px) and (max-width: 992px){
+
+/* newsleeter star */
+.Newsletter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    align-content: center;
+}
+.newsletter-text-img {
+    width: 100%;
+     background: #FFF; 
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    margin-left: 0;
+    padding: 4% 25%;
+  }
+.newsletter-text-img-right {
+    width: 100%;
+    border-radius: 16px;
+    position: relative;
+}
+  
+  .input-ara {
+    border-radius: 10px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 5% 20%;
+    margin-bottom: 15px;
+    border: 0;
+    outline: 0;
+
+  }
+  .news-button button{
+    
+    padding: 4%;
+
+  }
+
+  .news-img-box-2{
+ position: absolute;
+ top: 43%;
+ left: 48%;
+
+
+ }
+     
+
+  .news-img-box-1 #news-img{
+    display: block;
+    width: 200%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+/* newsleeter end*/
+
+
+
     .nabar-logo #nav-img{
         max-width: 50%;
         justify-content: center;
